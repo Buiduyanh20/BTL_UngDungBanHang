@@ -51,4 +51,4 @@ Chúng tôi rất hoan nghênh mọi đóng góp từ cộng đồng. Nếu bạ
 
 ## Liên Hệ
 
-Nếu bạn có bất kỳ câu hỏi hoặc góp ý, hãy liên hệ với chúng tôi qua email: levietanhzz108@gmail.com
+Nếu bạn có bất kỳ câu hỏi hoặc góp ý, hãy liên hệ với chúng tôi qua email: Info.buiduyanh@gmail.com
