@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/blury_background"
+        android:scaleType="centerCrop"
+        />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/tvAppName"
+            style="@style/h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:drawableStart="@drawable/ic_kleine_shape"
+            android:drawablePadding="6dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="V.A S h o p"/>
+
+        <TextView
+            android:id="@+id/cauChuDe"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_height="wrap_content"
+            style="@style/h4"
+            android:layout_margin="@dimen/tvRightAddressMargin"
+            app:layout_constraintTop_toBottomOf="@id/tvAppName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/titleRegister"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="35sp"/>
+
+        <TextView
+            android:id="@+id/tvQuality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/h2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cauChuDe"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="@string/loiNoiDau"
+            android:layout_marginTop="15dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRegisterAccountOptions"
+            android:layout_width="@dimen/mediumbuttonWidth"
+            android:layout_height="@dimen/mediumbuttonHeight"
+            style="@style/blueButtonStyle"
+            app:layout_constraintTop_toBottomOf="@id/tvQuality"
+            app:layout_constraintEnd_toEndOf="@id/tvQuality"
+            app:layout_constraintStart_toStartOf="@id/tvQuality"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="Đăng Ký"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLoginAccountOptions"
+            android:layout_width="@dimen/mediumbuttonWidth"
+            android:layout_marginTop="10dp"
+            android:layout_height="@dimen/mediumbuttonHeight"
+            style="@style/whiteButtonStyle"
+            app:layout_constraintTop_toBottomOf="@+id/btnRegisterAccountOptions"
+            app:layout_constraintEnd_toEndOf="@id/tvQuality"
+            app:layout_constraintStart_toStartOf="@id/tvQuality"
+            android:text="Đăng Nhập"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

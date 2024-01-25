@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "367250381200",
+    "project_id": "ungdungbanhang-51517",
+    "storage_bucket": "ungdungbanhang-51517.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367250381200:android:54ea21f5b1743d15eefb15",
+        "android_client_info": {
+          "package_name": "com.example.ungdungbanhang"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvu3M9L0WC6cmPfeopQHWHviXzMO_mzJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
